@@ -23,7 +23,7 @@ public class BubblePop extends MiniGameBaseActivity {
     int height;
     @Override
     public void setup() {
-        failTime = 500000;
+        failTime = 5000;
         width = getResources().getDisplayMetrics().widthPixels;
         height = getResources().getDisplayMetrics().heightPixels;
         bubble = new Bubble(width,height);
